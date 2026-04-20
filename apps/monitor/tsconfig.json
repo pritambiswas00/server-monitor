@@ -1,0 +1,23 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strictNullChecks": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolvePackageJsonExports": true,
+    "target": "ES2023",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "types": ["node", "vitest/globals"],
+    "strictPropertyInitialization": false
+  },
+  "include": ["./**/*.ts", "test.d.ts", "vitest.setup.ts"],
+  "exclude": ["node_modules"]
+}
