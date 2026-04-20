@@ -2,12 +2,13 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateRemoteServerDto } from './dto/create-remote-server.dto';
 import { UpdateRemoteServerDto } from './dto/update-remote-server.dto';
 import { type OwnerId, RemoteServer, RemoteServerId, RemoteServerStatus } from './entities/remote-server.entity';
+import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
 @Injectable()
 export class RemoteServerService {
 
-  constructor(private readonly remoteServerRepo: Repository<RemoteServer>) {}
+  constructor(@InjectRepository(RemoteServer) private readonly remoteServerRepo: Repository<RemoteServer>) {}
   create(createRemoteServerDto: CreateRemoteServerDto, ownerId: OwnerId) {
       const remoteServer = this.remoteServerRepo.create({
           ...createRemoteServerDto,
