@@ -8,7 +8,12 @@ describe('RemoteServerController', () => {
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [RemoteServerController],
-      providers: [RemoteServerService],
+      providers: [
+        {
+          provide: RemoteServerService,
+          useValue: mock<RemoteServerService>()
+        },
+      ],
     }).compile();
 
     controller = module.get<RemoteServerController>(RemoteServerController);
