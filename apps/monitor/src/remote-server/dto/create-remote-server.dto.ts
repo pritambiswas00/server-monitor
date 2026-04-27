@@ -7,8 +7,9 @@ export class CreateRemoteServerDto {
     @IsString()
     readonly name: string;
 
+    
+    @Transform((params) => O.fromNullable(params.value))
     @IsOptional()
-    @Transform(O.fromNullable)
     @IsString()
     readonly description:  O.Option<string>;
 

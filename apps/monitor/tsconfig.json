@@ -16,7 +16,10 @@
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false,
     "types": ["node", "vitest/globals"],
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["./**/*.ts", "test.d.ts", "vitest.setup.ts"],
   "exclude": ["node_modules", "dist"]

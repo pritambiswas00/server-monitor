@@ -31,7 +31,7 @@ export class LogSource {
     @Column()
     name: string;
 
-    @Column({ nullable: true, transformer: { from: O.fromNullable, to: O.toNullable } })
+    @Column({ nullable: true, type: 'varchar',  transformer: { from: O.fromNullable, to: O.toNullable } })
     description: O.Option<string>
 
     @Column({ type: 'simple-enum' })
