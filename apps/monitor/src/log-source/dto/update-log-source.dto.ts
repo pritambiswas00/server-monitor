@@ -1,4 +1,19 @@
-import { PartialType } from '@nestjs/swagger';
-import { CreateLogSourceDto } from './create-log-source.dto';
+import { Transform } from 'class-transformer';
+import { IsOptional, IsString } from 'class-validator';
+import * as O from 'fp-ts/Option';
+import { ApiProperty } from '@nestjs/swagger';
 
-export class UpdateLogSourceDto extends PartialType(CreateLogSourceDto) {}
+export class UpdateLogSourceDto {
+    @ApiProperty({ type: String, required: false })
+    @Transform((params) => O.fromNullable(params.value))
+    @IsOptional()
+    @IsString()
+    readonly name: O.Option<string>;
+
+
+    @ApiProperty({ type: String, required: false })
+    @Transform((params) => O.fromNullable(params.value))
+    @IsOptional()
+    @IsString()
+    readonly description: O.Option<string>;
+}

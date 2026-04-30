@@ -6,6 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { RemoteServerModule } from './remote-server/remote-server.module';
 import { AuthModule } from './auth/auth.module';
 import { LogSourceModule } from './log-source/log-source.module';
+import { LogAnalysisJobModule } from './log-analysis/log-analysis-job/log-analysis-job.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot({
@@ -13,7 +14,7 @@ import { LogSourceModule } from './log-source/log-source.module';
       database: 'monitor.db',
       synchronize: true,
       autoLoadEntities: true,
-  }), UsersModule, RemoteServerModule, AuthModule, LogSourceModule],
+  }), UsersModule, RemoteServerModule, AuthModule, LogSourceModule, LogAnalysisJobModule],
   controllers: [AppController],
   providers: [AppService],
 })
