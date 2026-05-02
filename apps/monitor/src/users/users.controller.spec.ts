@@ -1,24 +1,28 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { UsersController } from './users.controller';
 import { UsersService } from './users.service';
-import { mock } from 'vitest-mock-extended';
+import { mockDeep } from 'vitest-mock-extended';
 import { isoUserId, User } from './entities/user.entity';
+import * as TE from 'fp-ts/TaskEither';
+import * as O from 'fp-ts/Option';
+import { ConflictException } from '@nestjs/common';
 
 describe('UsersController', () => {
   let controller: UsersController;
-  let service: Mocked<UsersService>
+  let service: ReturnType<typeof mockDeep<UsersService>>;
+
+  const userId = isoUserId.wrap('some-uuid');
+  const mockUser: User = { id: userId, name: 'John Doe', email: 'john.doe@example.com' };
+
   beforeEach(async () => {
+    service = mockDeep<UsersService>();
     const module = await Test.createTestingModule({
       controllers: [UsersController],
-      providers: [{
-        provide: UsersService,
-        useValue: mock<UsersService>(),
-      }],
+      providers: [{ provide: UsersService, useValue: service }],
     }).compile();
 
     controller = module.get<UsersController>(UsersController);
-    service = module.get<Mocked<UsersService>>(UsersService);
-
+    service = module.get(UsersService);
   });
 
   it('should be defined', () => {
@@ -27,37 +31,49 @@ describe('UsersController', () => {
 
   it('should return an array of users', async () => {
     const users: User[] = [
-      { id: isoUserId.wrap("some-uuid1"), name: 'John Doe', email: 'john.doe@example.com' },
-      { id: isoUserId.wrap("some-uuid2"), name: 'Jane Doe', email: 'some@mail.com' }];
-    service.findAll.mockResolvedValue(users);
-    const allUsers = await controller.findAll();
+      { id: isoUserId.wrap('some-uuid1'), name: 'John Doe', email: 'john.doe@example.com' },
+      { id: isoUserId.wrap('some-uuid2'), name: 'Jane Doe', email: 'some@mail.com' },
+    ];
+    service.findAll.mockReturnValue(TE.right(users));
 
-    expect(allUsers).toBeInstanceOf(Array);
+    const result = await controller.findAll();
+
+    expect(result).toBeInstanceOf(Array);
+    expect(result).toHaveLength(2);
     expect(service.findAll).toHaveBeenCalledOnce();
-    expect(allUsers).toHaveLength(2)
   });
 
   it('should return a user by id', async () => {
-    const user: User = { id: isoUserId.wrap("some-uuid"), name: 'John Doe', email: 'john.doe@example.com' };
-    service.findOne.mockResolvedValue(user);
-    const foundUser = await controller.findOne(isoUserId.wrap("some-uuid"));
+    service.findOne.mockReturnValue(TE.right(O.some(mockUser)));
 
-    expect(foundUser).toEqual(user);
-    expect(service.findOne).toHaveBeenCalledWith("some-uuid");
+    const result = await controller.findOne(userId);
+
+    expect(O.isSome(result as O.Option<User>)).toBe(true);
+    expect(service.findOne).toHaveBeenCalledWith(userId);
   });
 
   it('should create a new user', async () => {
-    const user: User = { id: isoUserId.wrap("some-uuid"), name: 'John Doe', email: 'john.doe@example.com' };
-    service.create.mockResolvedValue(user);
-    const createdUser = await controller.create({ name: 'John Doe', email: 'john.doe@example.com' });
+    service.create.mockReturnValue(TE.right(mockUser));
+    const dto = { name: 'John Doe', email: 'john.doe@example.com' };
 
-    expect(createdUser).toEqual(user);
-    expect(service.create).toHaveBeenCalledWith({ name: 'John Doe', email: 'john.doe@example.com' });
-  })
+    const result = await controller.create(dto);
+
+    expect(result).toEqual(mockUser);
+    expect(service.create).toHaveBeenCalledWith(dto);
+  });
+
+  it('should throw ConflictException when email already exists', async () => {
+    service.create.mockReturnValue(TE.left(new ConflictException('already exists')));
+
+    await expect(controller.create({ name: 'John Doe', email: 'john.doe@example.com' }))
+      .rejects.toBeInstanceOf(ConflictException);
+  });
 
   it('should delete a user by id', async () => {
-    service.remove.mockResolvedValue({ id: isoUserId.wrap("some-uuid"), name: 'John Doe', email: 'john.doe@example.com' });
-    await controller.remove(isoUserId.wrap("some-uuid"));
-    expect(service.remove).toHaveBeenCalledWith("some-uuid");
+    service.remove.mockReturnValue(TE.right(mockUser));
+
+    await controller.remove(userId);
+
+    expect(service.remove).toHaveBeenCalledWith(userId);
   });
 });
