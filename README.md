@@ -1,53 +1,92 @@
-# Turborepo starter
+# Server Monitor
 
-This Turborepo starter is maintained by the Turborepo core team.
+A full-stack server monitoring platform built as a **Turborepo monorepo**. It provides a REST API backend for managing remote servers, log sources, and log analysis jobs, alongside a Next.js web frontend.
 
-## Using this example
+## Monorepo Structure
 
-Run the following command:
+### Apps
+
+| App | Description |
+|-----|-------------|
+| `apps/monitor` | NestJS REST API backend (main application) |
+| `apps/web` | Next.js web frontend |
+| `apps/docs` | Next.js documentation site |
+
+### Shared Packages
+
+| Package | Description |
+|---------|-------------|
+| `packages/ui` | Shared React component library (`Button`, `Card`, `Code`) |
+| `packages/eslint-config` | Shared ESLint configurations for Next.js and NestJS |
+| `packages/typescript-config` | Shared `tsconfig.json` presets |
+
+---
+
+## Backend — `apps/monitor`
+
+A [NestJS](https://nestjs.com/) API with [TypeORM](https://typeorm.io/) and a [better-sqlite3](https://github.com/WiseLibs/better-sqlite3) database. Business logic uses [fp-ts](https://gcanti.github.io/fp-ts/) for functional, type-safe error handling.
+
+### API Modules
+
+- **Users** — CRUD for user accounts (`/users`)
+- **Auth** — Global authentication guard protecting all routes (`/auth`)
+- **Remote Servers** — Manage remote servers per user (`/remote-server`)
+- **Log Sources** — Configure log sources attached to remote servers (`/log-source`)
+- **Log Analysis Jobs** — Define and run log analysis jobs (`/log-analysis-job`)
+
+### API Docs
+
+Swagger UI is available at `http://localhost:3000/docs` when the server is running.
+
+### Tech Stack
+
+- [NestJS](https://nestjs.com/) v11
+- [TypeORM](https://typeorm.io/) + better-sqlite3
+- [class-validator](https://github.com/typestack/class-validator) + [class-transformer](https://github.com/typestack/class-transformer) for DTO validation
+- [fp-ts](https://gcanti.github.io/fp-ts/) for functional error handling
+- [Vitest](https://vitest.dev/) for unit testing
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js >= 18
+- [pnpm](https://pnpm.io/) 9.x
+
+### Install dependencies
 
 ```sh
-npx create-turbo@latest
+pnpm install
 ```
 
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed (recommended):
+### Run the API in development
 
 ```sh
-cd my-turborepo
-turbo build
+cd apps/monitor
+pnpm start:dev
 ```
 
-Without global `turbo`, use your package manager:
+The API will be available at `http://localhost:3000`.
+
+### Run the web frontend
 
 ```sh
-cd my-turborepo
-npx turbo build
+cd apps/web
+pnpm dev
+```
+
+### Run all apps in parallel (from repo root)
+
+```sh
+pnpm dev
+```
+
+### Build all apps
+
+```sh
+pnpm build
 pnpm dlx turbo build
 pnpm exec turbo build
 ```
