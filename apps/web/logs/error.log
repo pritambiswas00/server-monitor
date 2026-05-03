@@ -1,0 +1,7 @@
+{"code":"ECONNRESET","level":"error","message":"Database connection lost","retryIn":"5s","service":"web","timestamp":"2026-05-03T08:32:01.934+00:00"}
+{"level":"error","message":"Unhandled exception in route handler","route":"/dashboard","service":"web","stack":"Error: timeout\n    at handler (/app/app/api/route.ts:42:11)","timestamp":"2026-05-03T08:34:48.745+00:00"}
+{"ip":"10.0.0.2","level":"error","message":"Failed to parse request body","route":"/api/data","service":"web","timestamp":"2026-05-03T08:43:14.212+00:00"}
+{"code":"ECONNRESET","level":"error","message":"Database connection lost","retryIn":"5s","service":"web","timestamp":"2026-05-03T08:46:20.889+00:00"}
+{"code":"ECONNRESET","level":"error","message":"Database connection lost","retryIn":"5s","service":"web","timestamp":"2026-05-03T09:04:02.516+00:00"}
+{"ip":"10.0.0.2","level":"error","message":"Failed to parse request body","route":"/api/data","service":"web","timestamp":"2026-05-03T09:12:03.198+00:00"}
+{"ip":"10.0.0.1","level":"error","message":"Failed to parse request body","route":"/api/data","service":"web","timestamp":"2026-05-03T09:22:28.775+00:00"}

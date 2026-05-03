@@ -5,6 +5,7 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+  app.use(require('express').json({ limit: '10mb' }));
   app.useGlobalPipes(new ValidationPipe({ whitelist: true, forbidNonWhitelisted: true }));
   const config = new DocumentBuilder()
   .setTitle("Monitor Server")
@@ -14,6 +15,6 @@ async function bootstrap() {
   .build();
   const documentFactory = ()=> SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, documentFactory);
-  await app.listen(process.env.PORT ?? 3000);
+  await app.listen(process.env.PORT ?? 4000);
 }
 bootstrap();

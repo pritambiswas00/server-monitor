@@ -1,0 +1,216 @@
+{"level":"info","logDir":"logs/","message":"Next.js server started","nodeEnv":"development","port":"3000","service":"web","timestamp":"2026-05-03T08:31:46.923+00:00"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T08:31:49.926+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T08:31:52.928+00:00","uptime":"8"}
+{"asset":"/_next/static/chunks/main-cg4zwz.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:31:55.930+00:00"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T08:31:58.933+00:00","ttl":218}
+{"code":"ECONNRESET","level":"error","message":"Database connection lost","retryIn":"5s","service":"web","timestamp":"2026-05-03T08:32:01.934+00:00"}
+{"duration":139,"ip":"10.0.0.2","level":"info","message":"DELETE /dashboard 200","service":"web","timestamp":"2026-05-03T08:32:04.935+00:00","userId":"usr_j1k2l3"}
+{"duration":118,"ip":"192.168.1.10","level":"info","message":"POST /dashboard 200","service":"web","timestamp":"2026-05-03T08:32:07.936+00:00","userId":"usr_a1b2c3"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:32:10.939+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-ht80lz.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:32:13.942+00:00"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T08:32:16.942+00:00","ttl":199}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:32:19.943+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-d9q5l8.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:32:22.947+00:00"}
+{"duration":122,"ip":"10.0.0.1","level":"info","message":"DELETE /api/health 200","service":"web","timestamp":"2026-05-03T08:32:25.948+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:32:28.952+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-3blvkt.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:32:31.954+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T08:32:34.957+00:00","ttl":102}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:32:37.961+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-51rwar.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:32:40.964+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:32:43.968+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T08:32:46.970+00:00","uptime":"62"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:32:49.973+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:32:52.976+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:32:55.979+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T08:32:58.980+00:00","ttl":142}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:33:01.983+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-iyebn7.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:33:04.986+00:00"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T08:33:07.989+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-yn2qx6.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:33:10.992+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T08:33:13.995+00:00","uptime":"89"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T08:33:16.997+00:00","ttl":33}
+{"duration":26,"ip":"172.17.0.3","level":"info","message":"GET /profile 200","service":"web","timestamp":"2026-05-03T08:33:20.001+00:00","userId":"usr_j1k2l3"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.56","service":"web","timestamp":"2026-05-03T08:33:23.005+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T08:33:26.008+00:00","ttl":18}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T08:33:29.011+00:00","uptime":"104"}
+{"duration":700,"level":"warn","message":"Slow response detected","route":"/api/health","service":"web","timestamp":"2026-05-03T08:33:32.015+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:33:35.018+00:00","userId":"usr_d4e5f6"}
+{"duration":1185,"level":"warn","message":"Slow response detected","route":"/","service":"web","timestamp":"2026-05-03T08:33:38.021+00:00"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:33:41.024+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-i8odja.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:33:44.027+00:00"}
+{"duration":150,"ip":"10.0.0.1","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T08:33:47.028+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T08:33:50.032+00:00","ttl":123}
+{"asset":"/_next/static/chunks/main-k7nvh3.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:33:53.033+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T08:33:56.460+00:00","uptime":"131"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:34:00.601+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-2a6gs6.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:34:03.917+00:00"}
+{"asset":"/_next/static/chunks/main-r17dq6.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:34:08.274+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:34:14.183+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:34:17.857+00:00","userId":"usr_d4e5f6"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:34:22.120+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:34:27.249+00:00","userId":"usr_d4e5f6"}
+{"ip":"192.168.1.10","level":"warn","message":"Rate limit approaching for IP","remaining":2,"service":"web","timestamp":"2026-05-03T08:34:33.395+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:34:40.492+00:00","userId":"usr_g7h8i9"}
+{"level":"error","message":"Unhandled exception in route handler","route":"/dashboard","service":"web","stack":"Error: timeout\n    at handler (/app/app/api/route.ts:42:11)","timestamp":"2026-05-03T08:34:48.745+00:00"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.78","service":"web","timestamp":"2026-05-03T08:34:58.354+00:00"}
+{"duration":7,"ip":"172.17.0.3","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T08:35:09.577+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:35:24.480+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-kqjta6.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T08:35:39.441+00:00"}
+{"duration":97,"ip":"10.0.0.2","level":"info","message":"PUT /api/health 200","service":"web","timestamp":"2026-05-03T08:35:57.847+00:00","userId":"usr_d4e5f6"}
+{"duration":66,"ip":"172.17.0.3","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T08:36:20.626+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T08:36:41.952+00:00","ttl":287}
+{"ip":"10.0.0.1","level":"warn","message":"Rate limit approaching for IP","remaining":5,"service":"web","timestamp":"2026-05-03T08:37:09.684+00:00"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:37:40.398+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:38:15.432+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:38:59.481+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:39:49.530+00:00","userId":"usr_j1k2l3"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T08:40:44.203+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T08:41:51.763+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.2","level":"error","message":"Failed to parse request body","route":"/api/data","service":"web","timestamp":"2026-05-03T08:43:14.212+00:00"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T08:44:44.645+00:00","ttl":14}
+{"code":"ECONNRESET","level":"error","message":"Database connection lost","retryIn":"5s","service":"web","timestamp":"2026-05-03T08:46:20.889+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T08:48:12.396+00:00","uptime":"987"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T08:50:19.901+00:00","uptime":"1115"}
+{"duration":126,"ip":"172.17.0.3","level":"info","message":"GET /profile 200","service":"web","timestamp":"2026-05-03T08:52:36.294+00:00","userId":"usr_d4e5f6"}
+{"duration":131,"ip":"10.0.0.1","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T08:55:16.829+00:00","userId":"usr_d4e5f6"}
+{"duration":24,"ip":"10.0.0.2","level":"info","message":"POST /settings 200","service":"web","timestamp":"2026-05-03T08:58:56.023+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:02:40.961+00:00","ttl":95}
+{"level":"info","logDir":"logs/","message":"Next.js server started","nodeEnv":"development","port":3001,"service":"web","timestamp":"2026-05-03T09:02:42.130+00:00"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:02:45.270+00:00","userId":"usr_a1b2c3"}
+{"duration":49,"ip":"10.0.0.1","level":"info","message":"PUT /profile 200","service":"web","timestamp":"2026-05-03T09:02:48.722+00:00","userId":"usr_j1k2l3"}
+{"duration":151,"ip":"10.0.0.2","level":"info","message":"POST / 200","service":"web","timestamp":"2026-05-03T09:02:52.321+00:00","userId":"usr_d4e5f6"}
+{"duration":850,"level":"warn","message":"Slow response detected","route":"/profile","service":"web","timestamp":"2026-05-03T09:02:55.493+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:02:59.262+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:03:02.631+00:00","ttl":96}
+{"duration":122,"ip":"10.0.0.2","level":"info","message":"DELETE /profile 200","service":"web","timestamp":"2026-05-03T09:03:06.810+00:00","userId":"usr_d4e5f6"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.64","service":"web","timestamp":"2026-05-03T09:03:09.833+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:03:13.882+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:03:18.089+00:00","ttl":180}
+{"asset":"/_next/static/chunks/main-bkl0cs.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T09:03:23.255+00:00"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:03:26.659+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:03:29.949+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-f5go9s.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T09:03:36.144+00:00"}
+{"duration":60,"ip":"172.17.0.3","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T09:03:40.118+00:00","userId":"usr_g7h8i9"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:03:43.398+00:00","userId":"usr_a1b2c3"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:03:47.005+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:03:50.481+00:00","userId":"usr_j1k2l3"}
+{"duration":50,"ip":"10.0.0.1","level":"info","message":"GET /settings 200","service":"web","timestamp":"2026-05-03T09:03:54.061+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:03:58.926+00:00","uptime":"78"}
+{"code":"ECONNRESET","level":"error","message":"Database connection lost","retryIn":"5s","service":"web","timestamp":"2026-05-03T09:04:02.516+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:04:06.738+00:00","uptime":"86"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:04:11.161+00:00","ttl":172}
+{"duration":57,"ip":"10.0.0.2","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T09:04:16.307+00:00","userId":"usr_a1b2c3"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:04:20.804+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:04:25.813+00:00","ttl":34}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:04:30.678+00:00","uptime":"110"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.80","service":"web","timestamp":"2026-05-03T09:04:36.304+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:04:42.389+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.2","level":"warn","message":"Rate limit approaching for IP","remaining":8,"service":"web","timestamp":"2026-05-03T09:04:48.872+00:00"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T09:04:55.302+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-ge9feq.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T09:05:01.615+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:05:08.128+00:00","userId":"usr_g7h8i9"}
+{"duration":69,"ip":"192.168.1.10","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T09:05:15.647+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-k3f344.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T09:05:23.669+00:00"}
+{"asset":"/_next/static/chunks/main-7yxkdl.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T09:05:32.703+00:00"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:05:40.950+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:05:48.869+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:05:59.748+00:00","uptime":"199"}
+{"ip":"192.168.1.10","level":"warn","message":"Rate limit approaching for IP","remaining":1,"service":"web","timestamp":"2026-05-03T09:06:12.316+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:06:46.775+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:07:12.414+00:00","userId":"usr_j1k2l3"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:07:34.022+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:07:48.290+00:00","ttl":283}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:08:02.498+00:00","ttl":151}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T09:08:18.306+00:00","userId":"usr_g7h8i9"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:08:35.436+00:00","userId":"usr_a1b2c3"}
+{"duration":145,"ip":"172.17.0.3","level":"info","message":"DELETE /settings 200","service":"web","timestamp":"2026-05-03T09:08:52.077+00:00","userId":"usr_d4e5f6"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:09:12.653+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:09:30.225+00:00","ttl":42}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:09:44.423+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:09:59.084+00:00","userId":"usr_g7h8i9"}
+{"duration":960,"level":"warn","message":"Slow response detected","route":"/dashboard","service":"web","timestamp":"2026-05-03T09:10:16.166+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:10:33.825+00:00","uptime":"473"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:10:51.073+00:00","uptime":"490"}
+{"duration":57,"ip":"172.17.0.3","level":"info","message":"DELETE /settings 200","service":"web","timestamp":"2026-05-03T09:11:08.421+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:11:26.000+00:00","uptime":"525"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.67","service":"web","timestamp":"2026-05-03T09:11:44.744+00:00"}
+{"ip":"10.0.0.2","level":"error","message":"Failed to parse request body","route":"/api/data","service":"web","timestamp":"2026-05-03T09:12:03.198+00:00"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:12:22.385+00:00","userId":"usr_j1k2l3"}
+{"duration":101,"ip":"10.0.0.2","level":"info","message":"GET /settings 200","service":"web","timestamp":"2026-05-03T09:12:44.732+00:00","userId":"usr_a1b2c3"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.78","service":"web","timestamp":"2026-05-03T09:13:06.021+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:13:27.880+00:00","userId":"usr_a1b2c3"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T09:13:53.063+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:14:17.596+00:00","uptime":"696"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:14:43.300+00:00","userId":"usr_d4e5f6"}
+{"ip":"172.17.0.3","level":"warn","message":"Rate limit approaching for IP","remaining":0,"service":"web","timestamp":"2026-05-03T09:15:12.699+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:15:40.507+00:00","userId":"usr_d4e5f6"}
+{"duration":1419,"level":"warn","message":"Slow response detected","route":"/dashboard","service":"web","timestamp":"2026-05-03T09:16:12.870+00:00"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:16:46.156+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:17:20.194+00:00","ttl":54}
+{"duration":53,"ip":"172.17.0.3","level":"info","message":"PUT /profile 200","service":"web","timestamp":"2026-05-03T09:17:55.711+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:18:32.631+00:00","ttl":279}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:19:14.526+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:19:59.000+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-ukrfda.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T09:20:39.728+00:00"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:21:27.609+00:00","ttl":88}
+{"ip":"10.0.0.1","level":"error","message":"Failed to parse request body","route":"/api/data","service":"web","timestamp":"2026-05-03T09:22:28.775+00:00"}
+{"duration":94,"ip":"10.0.0.2","level":"info","message":"POST /settings 200","service":"web","timestamp":"2026-05-03T09:23:12.021+00:00","userId":"usr_g7h8i9"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:24:01.268+00:00","userId":"usr_g7h8i9"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:25:00.006+00:00","userId":"usr_d4e5f6"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T09:26:15.881+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:27:15.199+00:00","userId":"usr_g7h8i9"}
+{"duration":1241,"level":"warn","message":"Slow response detected","route":"/dashboard","service":"web","timestamp":"2026-05-03T09:28:22.797+00:00"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:29:27.453+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:30:37.600+00:00","userId":"usr_g7h8i9"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T09:31:49.121+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-umxyts.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T09:33:03.288+00:00"}
+{"duration":28,"ip":"10.0.0.1","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T09:34:38.166+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:35:48.724+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-jnu9j9.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T09:36:59.692+00:00"}
+{"asset":"/_next/static/chunks/main-z2f7sf.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T09:38:17.799+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:39:43.166+00:00","uptime":"2222"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:41:14.926+00:00","userId":"usr_d4e5f6"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:42:56.720+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T09:44:45.600+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:46:21.430+00:00","uptime":"2620"}
+{"duration":7,"ip":"172.17.0.3","level":"info","message":"PUT /dashboard 200","service":"web","timestamp":"2026-05-03T09:48:16.374+00:00","userId":"usr_d4e5f6"}
+{"duration":857,"level":"warn","message":"Slow response detected","route":"/","service":"web","timestamp":"2026-05-03T09:50:19.077+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T09:52:30.368+00:00","uptime":"2989"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T09:54:35.536+00:00","ttl":5}
+{"duration":42,"ip":"10.0.0.2","level":"info","message":"DELETE / 200","service":"web","timestamp":"2026-05-03T09:56:56.639+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T09:59:17.285+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T10:02:15.370+00:00","uptime":"3574"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T10:05:11.904+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T10:08:27.953+00:00","uptime":"3947"}
+{"asset":"/_next/static/chunks/main-8kp5rx.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T10:11:39.626+00:00"}
+{"duration":127,"ip":"10.0.0.2","level":"info","message":"GET /profile 200","service":"web","timestamp":"2026-05-03T10:14:59.597+00:00","userId":"usr_j1k2l3"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T10:18:36.878+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T10:21:38.950+00:00","userId":"usr_a1b2c3"}
+{"duration":59,"ip":"10.0.0.1","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T10:24:59.432+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-kvjv96.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T10:28:43.571+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T10:32:56.478+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T10:36:53.648+00:00","ttl":190}
+{"duration":106,"ip":"10.0.0.1","level":"info","message":"GET /profile 200","service":"web","timestamp":"2026-05-03T10:40:35.683+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-eupotx.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T10:44:29.174+00:00"}
+{"asset":"/_next/static/chunks/main-ld2mlw.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T10:49:08.582+00:00"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T10:54:18.616+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T10:59:03.005+00:00","uptime":"6982"}
+{"duration":90,"ip":"192.168.1.10","level":"info","message":"PUT /profile 200","service":"web","timestamp":"2026-05-03T11:04:12.913+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T11:09:17.686+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-bmzf23.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T11:14:22.969+00:00"}
+{"duration":71,"ip":"10.0.0.2","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T11:27:55.661+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-2o2yfg.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T11:34:23.515+00:00"}
+{"duration":759,"level":"warn","message":"Slow response detected","route":"/profile","service":"web","timestamp":"2026-05-03T11:41:12.504+00:00"}
+{"duration":877,"level":"warn","message":"Slow response detected","route":"/settings","service":"web","timestamp":"2026-05-03T11:47:47.085+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T11:54:07.628+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T12:08:27.751+00:00","userId":"usr_j1k2l3"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T12:16:19.786+00:00","userId":"usr_a1b2c3"}
+{"ip":"192.168.1.10","level":"warn","message":"Rate limit approaching for IP","remaining":9,"service":"web","timestamp":"2026-05-03T12:25:17.200+00:00"}
+{"duration":99,"ip":"172.17.0.3","level":"info","message":"PUT /api/health 200","service":"web","timestamp":"2026-05-03T12:34:51.858+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T12:45:05.548+00:00","userId":"usr_a1b2c3"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T12:55:49.274+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-ypnhoz.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T13:06:54.986+00:00"}
+{"ip":"10.0.0.2","level":"warn","message":"Rate limit approaching for IP","remaining":9,"service":"web","timestamp":"2026-05-03T13:17:18.779+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T13:27:03.533+00:00","ttl":114}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T13:36:37.489+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T13:46:48.143+00:00","uptime":"17047"}

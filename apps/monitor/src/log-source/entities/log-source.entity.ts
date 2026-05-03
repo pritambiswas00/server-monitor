@@ -18,7 +18,8 @@ export enum LogStatus {
 }
 
 export enum LogSourceType {
-     PROMETHEUS = 'PROMETHEUS'
+     PROMETHEUS = 'PROMETHEUS',
+     HTTP = 'HTTP',        // poll a JSON log endpoint, e.g. http://<host>/api/logs
 }
 
 @Entity({ name: 'log-source', schema: 'log-source' })
