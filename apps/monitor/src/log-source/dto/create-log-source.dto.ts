@@ -3,6 +3,7 @@ import { LogSourceType } from '../entities/log-source.entity';
 import { IsEnum, IsObject, IsOptional, IsString } from 'class-validator';
 import { Transform } from 'class-transformer';
 import { ApiProperty } from '@nestjs/swagger';
+import { isoRemoteServerId, type RemoteServerId } from '@/remote-server/entities/remote-server.entity';
 
 export class CreateLogSourceDto {
 
@@ -21,5 +22,10 @@ export class CreateLogSourceDto {
 
     @ApiProperty({ enum: LogSourceType })
     @IsEnum(LogSourceType, { message: 'Please provide valid log source type' })
-    type: LogSourceType
+    type: LogSourceType;
+
+    @ApiProperty({ type: String })
+    @Transform((params) => isoRemoteServerId.wrap(params.value))
+    @IsString({ message: 'remoteServerId must be a string' })
+    remoteServerId: RemoteServerId;
 }

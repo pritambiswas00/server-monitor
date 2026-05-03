@@ -214,3 +214,660 @@
 {"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T13:27:03.533+00:00","ttl":114}
 {"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T13:36:37.489+00:00","userId":"usr_d4e5f6"}
 {"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T13:46:48.143+00:00","uptime":"17047"}
+{"duration":76,"ip":"172.17.0.3","level":"info","message":"PUT /profile 200","service":"web","timestamp":"2026-05-03T13:57:53.389+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T14:10:40.266+00:00","uptime":"18479"}
+{"asset":"/_next/static/chunks/main-s5w016.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T14:23:42.710+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T14:38:16.425+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T14:51:55.419+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T15:06:48.994+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T15:21:59.834+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T15:38:08.850+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T15:59:03.779+00:00","userId":"usr_d4e5f6"}
+{"level":"info","logDir":"logs/","message":"Next.js server started","nodeEnv":"development","port":"3001","service":"web","timestamp":"2026-05-03T16:04:35.715+00:00"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:04:38.723+00:00","ttl":172}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:04:41.725+00:00","ttl":277}
+{"asset":"/_next/static/chunks/main-sqynbu.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:04:44.728+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:04:47.732+00:00","uptime":"14"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:04:50.733+00:00","uptime":"17"}
+{"asset":"/_next/static/chunks/main-l5bw7v.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:04:53.733+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:04:56.735+00:00","uptime":"23"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:04:59.737+00:00","uptime":"26"}
+{"asset":"/_next/static/chunks/main-7sa7k5.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:05:02.739+00:00"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:05:05.739+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:05:08.742+00:00","uptime":"35"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:05:11.743+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:05:14.745+00:00","ttl":260}
+{"ip":"172.17.0.3","jobId":"job_x1y2z3","level":"error","message":"Failed to parse request body","ownerId":"usr_g7h8i9","route":"/api/data","service":"web","stack":"SyntaxError: Unexpected token '<', \"<html>404 \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parseRequestBody (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:50:17)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:101:25\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:100:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:05:17.748+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:05:20.749+00:00","userId":"usr_j1k2l3"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:05:23.753+00:00","userId":"usr_j1k2l3"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:05:26.755+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:05:29.756+00:00","uptime":"56"}
+{"duration":150,"ip":"10.0.0.2","level":"info","message":"DELETE /api/health 200","service":"web","timestamp":"2026-05-03T16:05:32.756+00:00","userId":"usr_g7h8i9"}
+{"duration":76,"ip":"192.168.1.10","level":"info","message":"DELETE /api/health 200","service":"web","timestamp":"2026-05-03T16:05:35.756+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:05:38.757+00:00","uptime":"65"}
+{"ip":"10.0.0.2","level":"warn","message":"Rate limit approaching for IP","remaining":4,"service":"web","timestamp":"2026-05-03T16:05:41.759+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:05:44.759+00:00","uptime":"71"}
+{"duration":1295,"level":"warn","message":"Slow response detected","route":"/api/health","service":"web","timestamp":"2026-05-03T16:05:47.796+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:05:50.799+00:00","uptime":"77"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:05:53.800+00:00","ttl":251}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:05:56.803+00:00","userId":"usr_j1k2l3"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:05:59.804+00:00","userId":"usr_a1b2c3"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:06:02.804+00:00","userId":"usr_a1b2c3"}
+{"level":"info","logDir":"logs/","message":"Next.js server started","nodeEnv":"development","port":"3001","service":"web","timestamp":"2026-05-03T16:06:08.434+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:06:11.438+00:00","ttl":99}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:06:14.439+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.1","jobId":"job_x1y2z3","level":"error","message":"Failed to parse request body","ownerId":"usr_a1b2c3","route":"/api/data","service":"web","stack":"SyntaxError: Unexpected token '<', \"<html>404 \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parseRequestBody (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:50:17)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:101:25\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:100:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:06:17.439+00:00"}
+{"ip":"10.0.0.2","level":"warn","message":"Rate limit approaching for IP","remaining":3,"service":"web","timestamp":"2026-05-03T16:06:20.442+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:06:23.445+00:00","userId":"usr_a1b2c3"}
+{"duration":992,"level":"warn","message":"Slow response detected","route":"/","service":"web","timestamp":"2026-05-03T16:06:26.448+00:00"}
+{"duration":82,"ip":"10.0.0.2","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:06:29.451+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:06:32.453+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-eqwcn0.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:06:35.456+00:00"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:06:38.456+00:00","ttl":51}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:06:41.458+00:00","userId":"usr_d4e5f6"}
+{"duration":787,"level":"warn","message":"Slow response detected","route":"/settings","service":"web","timestamp":"2026-05-03T16:06:44.462+00:00"}
+{"duration":82,"ip":"172.17.0.3","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:06:47.463+00:00","userId":"usr_g7h8i9"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:06:50.465+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:06:53.468+00:00","uptime":"46"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:06:56.469+00:00","userId":"usr_a1b2c3"}
+{"duration":559,"level":"warn","message":"Slow response detected","route":"/profile","service":"web","timestamp":"2026-05-03T16:06:59.470+00:00"}
+{"code":"ECONNRESET","jobId":"job_p4q5r6","level":"error","message":"Database connection lost","ownerId":"usr_a1b2c3","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:07:02.472+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:07:05.474+00:00","ttl":42}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.73","service":"web","timestamp":"2026-05-03T16:07:08.475+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:07:11.476+00:00","uptime":"64"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:07:14.477+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-2d7sq1.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:07:17.478+00:00"}
+{"duration":153,"ip":"10.0.0.1","level":"info","message":"DELETE /dashboard 200","service":"web","timestamp":"2026-05-03T16:07:20.480+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:07:23.481+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-12fy2z.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:07:26.482+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:07:29.485+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:07:32.488+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:07:35.492+00:00","ttl":207}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:07:38.493+00:00","uptime":"91"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:07:41.497+00:00","ttl":274}
+{"duration":119,"ip":"10.0.0.1","level":"info","message":"DELETE /settings 200","service":"web","timestamp":"2026-05-03T16:07:44.498+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-d7xvtv.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:07:47.501+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:07:50.501+00:00","userId":"usr_g7h8i9"}
+{"duration":49,"ip":"10.0.0.2","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T16:07:53.502+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:07:56.504+00:00","uptime":"109"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:07:59.504+00:00","ttl":257}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:08:02.504+00:00","ttl":187}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:08:05.506+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:08:08.508+00:00","uptime":"121"}
+{"ip":"10.0.0.2","level":"warn","message":"Rate limit approaching for IP","remaining":5,"service":"web","timestamp":"2026-05-03T16:08:11.509+00:00"}
+{"asset":"/_next/static/chunks/main-7tpxeu.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:08:14.512+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:08:17.514+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:08:20.514+00:00","userId":"usr_d4e5f6"}
+{"duration":148,"ip":"192.168.1.10","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:08:23.518+00:00","userId":"usr_g7h8i9"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:08:26.519+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:08:29.522+00:00","uptime":"142"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:08:32.525+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:08:35.526+00:00","uptime":"148"}
+{"asset":"/_next/static/chunks/main-q4rfgq.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:08:38.528+00:00"}
+{"duration":20,"ip":"172.17.0.3","level":"info","message":"GET /profile 200","service":"web","timestamp":"2026-05-03T16:08:41.530+00:00","userId":"usr_g7h8i9"}
+{"duration":68,"ip":"10.0.0.1","level":"info","message":"DELETE /profile 200","service":"web","timestamp":"2026-05-03T16:08:44.533+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:08:47.535+00:00","uptime":"160"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:08:50.535+00:00","uptime":"163"}
+{"duration":1349,"level":"warn","message":"Slow response detected","route":"/profile","service":"web","timestamp":"2026-05-03T16:08:53.538+00:00"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:08:56.540+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:08:59.542+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-e7ij5y.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:09:02.544+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:09:05.545+00:00","uptime":"178"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:09:08.547+00:00","ttl":271}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:09:11.550+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.1","level":"warn","message":"Rate limit approaching for IP","remaining":3,"service":"web","timestamp":"2026-05-03T16:09:14.553+00:00"}
+{"duration":72,"ip":"192.168.1.10","level":"info","message":"GET /settings 200","service":"web","timestamp":"2026-05-03T16:09:17.556+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-bpbcuq.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:09:20.558+00:00"}
+{"duration":15,"ip":"172.17.0.3","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:09:23.560+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:09:26.561+00:00","ttl":112}
+{"asset":"/_next/static/chunks/main-w28qre.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:09:29.564+00:00"}
+{"asset":"/_next/static/chunks/main-977cj3.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:09:32.565+00:00"}
+{"ip":"192.168.1.10","jobId":"job_p4q5r6","level":"error","message":"Failed to parse request body","ownerId":"usr_g7h8i9","route":"/api/data","service":"web","stack":"SyntaxError: Unexpected token '<', \"<html>404 \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parseRequestBody (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:50:17)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:101:25\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:100:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:09:35.566+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:09:38.566+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-ifc8wq.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:09:41.568+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:09:44.572+00:00","userId":"usr_a1b2c3"}
+{"jobId":"job_m7n8o9","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_d4e5f6","route":"/","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /settings\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:09:47.572+00:00"}
+{"asset":"/_next/static/chunks/main-43vtmt.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:09:50.572+00:00"}
+{"asset":"/_next/static/chunks/main-4hbr4l.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:09:53.573+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:09:56.574+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:09:59.576+00:00","ttl":83}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:10:02.578+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:10:05.579+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:10:08.580+00:00","ttl":229}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:10:11.582+00:00","uptime":"244"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:10:14.585+00:00","uptime":"247"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:10:17.586+00:00","uptime":"250"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:10:20.587+00:00","uptime":"253"}
+{"duration":33,"ip":"172.17.0.3","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:10:23.587+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:10:26.587+00:00","ttl":285}
+{"duration":1245,"level":"warn","message":"Slow response detected","route":"/settings","service":"web","timestamp":"2026-05-03T16:10:29.588+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:10:32.590+00:00","userId":"usr_g7h8i9"}
+{"duration":142,"ip":"10.0.0.1","level":"info","message":"PUT /profile 200","service":"web","timestamp":"2026-05-03T16:10:35.591+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:10:38.593+00:00","ttl":258}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:10:41.596+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:10:44.597+00:00","ttl":195}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:10:47.600+00:00","ttl":170}
+{"duration":123,"ip":"172.17.0.3","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:10:50.605+00:00","userId":"usr_d4e5f6"}
+{"duration":85,"ip":"10.0.0.2","level":"info","message":"POST / 200","service":"web","timestamp":"2026-05-03T16:10:53.609+00:00","userId":"usr_a1b2c3"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:10:56.612+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:10:59.613+00:00","ttl":273}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:11:02.616+00:00","uptime":"295"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:11:05.617+00:00","uptime":"298"}
+{"asset":"/_next/static/chunks/main-z5zeew.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:11:08.617+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:11:11.619+00:00","userId":"usr_d4e5f6"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:11:14.620+00:00","userId":"usr_d4e5f6"}
+{"email":"pritam@gmail.com","level":"info","message":"registerUserAction: start","service":"web","timestamp":"2026-05-03T16:11:17.127+00:00"}
+{"email":"pritam@gmail.com","level":"info","message":"registerUserAction: success","service":"web","timestamp":"2026-05-03T16:11:17.205+00:00","userId":"421da19d-87a1-48df-9dd8-f24507ac077c"}
+{"asset":"/_next/static/chunks/main-6cmiaj.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:11:17.620+00:00"}
+{"asset":"/_next/static/chunks/main-9rpbbz.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:11:20.620+00:00"}
+{"duration":68,"ip":"10.0.0.1","level":"info","message":"PUT /settings 200","service":"web","timestamp":"2026-05-03T16:11:23.621+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:11:26.625+00:00","ttl":71}
+{"asset":"/_next/static/chunks/main-vn5o6e.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:11:29.628+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:11:32.628+00:00","uptime":"325"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:11:35.631+00:00","userId":"usr_d4e5f6"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:11:38.632+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-pmu59y.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:11:41.636+00:00"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:11:44.637+00:00","userId":"usr_d4e5f6"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:11:47.640+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-anho89.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:11:50.643+00:00"}
+{"duration":39,"ip":"10.0.0.1","level":"info","message":"PUT / 200","service":"web","timestamp":"2026-05-03T16:11:53.644+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:11:56.647+00:00","uptime":"349"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:11:59.649+00:00","userId":"usr_g7h8i9"}
+{"duration":137,"ip":"10.0.0.1","level":"info","message":"DELETE /settings 200","service":"web","timestamp":"2026-05-03T16:12:02.650+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:12:05.651+00:00","ttl":118}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:12:08.652+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-wdsrn5.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:12:11.654+00:00"}
+{"asset":"/_next/static/chunks/main-2hdnm2.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:12:14.654+00:00"}
+{"code":"ECONNRESET","jobId":"job_a0b1c2","level":"error","message":"Database connection lost","ownerId":"usr_j1k2l3","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:12:17.656+00:00"}
+{"duration":120,"ip":"10.0.0.2","level":"info","message":"POST /profile 200","service":"web","timestamp":"2026-05-03T16:12:20.658+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:12:23.658+00:00","ttl":107}
+{"duration":1137,"level":"warn","message":"Slow response detected","route":"/settings","service":"web","timestamp":"2026-05-03T16:12:26.662+00:00"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:12:29.664+00:00","userId":"usr_d4e5f6"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:12:32.666+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:12:35.667+00:00","userId":"usr_a1b2c3"}
+{"duration":92,"ip":"172.17.0.3","level":"info","message":"PUT /profile 200","service":"web","timestamp":"2026-05-03T16:12:38.667+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:12:41.768+00:00","uptime":"395"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:12:44.774+00:00","userId":"usr_a1b2c3"}
+{"duration":144,"ip":"192.168.1.10","level":"info","message":"GET / 200","service":"web","timestamp":"2026-05-03T16:12:47.774+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:12:50.778+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:12:53.778+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:12:56.779+00:00","userId":"usr_d4e5f6"}
+{"duration":148,"ip":"10.0.0.2","level":"info","message":"PUT /settings 200","service":"web","timestamp":"2026-05-03T16:12:59.779+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:13:02.783+00:00","uptime":"416"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:13:05.783+00:00","ttl":191}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:13:08.785+00:00","uptime":"422"}
+{"duration":152,"ip":"10.0.0.2","level":"info","message":"PUT / 200","service":"web","timestamp":"2026-05-03T16:13:11.787+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:13:14.789+00:00","uptime":"428"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:13:17.792+00:00","uptime":"431"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:13:20.793+00:00","userId":"usr_a1b2c3"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:13:23.795+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-a9rvxm.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:13:26.796+00:00"}
+{"asset":"/_next/static/chunks/main-juv4cz.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:13:29.796+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:13:32.799+00:00","uptime":"446"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:13:35.800+00:00","uptime":"449"}
+{"duration":150,"ip":"10.0.0.2","level":"info","message":"PUT /profile 200","service":"web","timestamp":"2026-05-03T16:13:38.802+00:00","userId":"usr_d4e5f6"}
+{"ip":"192.168.1.10","jobId":"job_p4q5r6","level":"error","message":"Failed to parse request body","ownerId":"usr_a1b2c3","route":"/api/data","service":"web","stack":"SyntaxError: Unexpected token '<', \"<html>404 \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parseRequestBody (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:50:17)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:101:25\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:100:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:13:41.804+00:00"}
+{"duration":539,"level":"warn","message":"Slow response detected","route":"/api/health","service":"web","timestamp":"2026-05-03T16:13:44.805+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:13:47.805+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:13:50.807+00:00","ttl":215}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:13:53.807+00:00","uptime":"467"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:13:56.808+00:00","ttl":167}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:13:59.809+00:00","ttl":288}
+{"asset":"/_next/static/chunks/main-1lwolq.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:14:02.811+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:14:05.811+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:14:08.812+00:00","ttl":12}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:14:11.813+00:00","ttl":148}
+{"duration":1034,"level":"warn","message":"Slow response detected","route":"/api/health","service":"web","timestamp":"2026-05-03T16:14:14.813+00:00"}
+{"ip":"10.0.0.2","level":"warn","message":"Rate limit approaching for IP","remaining":3,"service":"web","timestamp":"2026-05-03T16:14:17.816+00:00"}
+{"asset":"/_next/static/chunks/main-temdtl.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:14:20.817+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:14:23.820+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-aldfp2.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:14:26.823+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:14:29.823+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:14:32.827+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:14:35.833+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-iejvwr.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:14:38.836+00:00"}
+{"asset":"/_next/static/chunks/main-u0pgrb.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:14:41.836+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:14:44.839+00:00","uptime":"518"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:14:47.842+00:00","ttl":245}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:14:50.843+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:14:53.846+00:00","ttl":206}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:14:56.848+00:00","ttl":270}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:14:59.849+00:00","userId":"usr_d4e5f6"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.56","service":"web","timestamp":"2026-05-03T16:15:02.852+00:00"}
+{"duration":56,"ip":"10.0.0.2","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T16:15:05.855+00:00","userId":"usr_g7h8i9"}
+{"duration":1301,"level":"warn","message":"Slow response detected","route":"/api/health","service":"web","timestamp":"2026-05-03T16:15:08.856+00:00"}
+{"duration":121,"ip":"10.0.0.2","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T16:15:11.858+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:15:14.859+00:00","ttl":35}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:15:17.862+00:00","ttl":166}
+{"asset":"/_next/static/chunks/main-qyirsn.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:15:20.865+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:15:23.868+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:15:26.870+00:00","uptime":"560"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:15:29.871+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-mvbicw.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:15:32.873+00:00"}
+{"duration":36,"ip":"10.0.0.2","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:15:35.874+00:00","userId":"usr_a1b2c3"}
+{"duration":12,"ip":"172.17.0.3","level":"info","message":"PUT /dashboard 200","service":"web","timestamp":"2026-05-03T16:15:38.876+00:00","userId":"usr_a1b2c3"}
+{"duration":48,"ip":"10.0.0.1","level":"info","message":"PUT /settings 200","service":"web","timestamp":"2026-05-03T16:15:41.878+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:15:44.879+00:00","ttl":278}
+{"asset":"/_next/static/chunks/main-wsaqqd.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:15:47.882+00:00"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:15:50.884+00:00","ttl":80}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:15:53.887+00:00","uptime":"587"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:15:56.889+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:15:59.889+00:00","uptime":"593"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:16:02.892+00:00","userId":"usr_d4e5f6"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:16:05.892+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:16:08.895+00:00","uptime":"602"}
+{"asset":"/_next/static/chunks/main-tz2z44.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:16:11.898+00:00"}
+{"duration":147,"ip":"172.17.0.3","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T16:16:14.898+00:00","userId":"usr_g7h8i9"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:16:17.901+00:00","userId":"usr_g7h8i9"}
+{"duration":1329,"level":"warn","message":"Slow response detected","route":"/settings","service":"web","timestamp":"2026-05-03T16:16:20.901+00:00"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:16:23.905+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:16:26.906+00:00","userId":"usr_d4e5f6"}
+{"code":"ECONNRESET","jobId":"job_p4q5r6","level":"error","message":"Database connection lost","ownerId":"usr_d4e5f6","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:16:29.907+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:16:32.906+00:00","ttl":135}
+{"jobId":"job_a0b1c2","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_d4e5f6","route":"/dashboard","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /settings\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:16:35.908+00:00"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:16:38.909+00:00","ttl":139}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:16:41.912+00:00","userId":"usr_a1b2c3"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:16:44.912+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:16:47.914+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:16:50.916+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:16:53.919+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:16:56.920+00:00","uptime":"650"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:16:59.970+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-7bpvk1.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:17:02.972+00:00"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.63","service":"web","timestamp":"2026-05-03T16:17:05.973+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:17:08.975+00:00","uptime":"662"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:17:11.977+00:00","userId":"usr_a1b2c3"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:17:14.978+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:17:17.981+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:17:20.982+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-l5ft1u.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:17:23.984+00:00"}
+{"asset":"/_next/static/chunks/main-gpa6d1.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:17:26.986+00:00"}
+{"asset":"/_next/static/chunks/main-xng0sn.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:17:29.986+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:17:32.989+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.1","level":"warn","message":"Rate limit approaching for IP","remaining":2,"service":"web","timestamp":"2026-05-03T16:17:35.990+00:00"}
+{"asset":"/_next/static/chunks/main-r32grw.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:17:38.991+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:17:41.991+00:00","uptime":"695"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:17:44.992+00:00","uptime":"698"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:17:47.993+00:00","uptime":"701"}
+{"ip":"172.17.0.3","jobId":"job_a0b1c2","level":"error","message":"Failed to parse request body","ownerId":"usr_j1k2l3","route":"/api/data","service":"web","stack":"SyntaxError: Unexpected token '<', \"<html>404 \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parseRequestBody (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:50:17)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:101:25\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:100:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:17:50.994+00:00"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:17:53.998+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:17:56.999+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-jo32pn.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:18:00.000+00:00"}
+{"jobId":"job_p4q5r6","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_j1k2l3","route":"/api/health","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /api/health\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:18:03.003+00:00"}
+{"duration":26,"ip":"10.0.0.1","level":"info","message":"DELETE /profile 200","service":"web","timestamp":"2026-05-03T16:18:06.003+00:00","userId":"usr_d4e5f6"}
+{"duration":65,"ip":"192.168.1.10","level":"info","message":"POST /profile 200","service":"web","timestamp":"2026-05-03T16:18:09.004+00:00","userId":"usr_j1k2l3"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:18:12.007+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:18:15.007+00:00","uptime":"728"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:18:18.008+00:00","ttl":184}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:18:21.010+00:00","ttl":67}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:18:24.011+00:00","userId":"usr_a1b2c3"}
+{"duration":35,"ip":"10.0.0.2","level":"info","message":"DELETE /settings 200","service":"web","timestamp":"2026-05-03T16:18:27.010+00:00","userId":"usr_d4e5f6"}
+{"ip":"172.17.0.3","level":"warn","message":"Rate limit approaching for IP","remaining":4,"service":"web","timestamp":"2026-05-03T16:18:30.010+00:00"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:18:33.012+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.2","level":"warn","message":"Rate limit approaching for IP","remaining":0,"service":"web","timestamp":"2026-05-03T16:18:36.014+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:18:39.015+00:00","userId":"usr_g7h8i9"}
+{"duration":1010,"level":"warn","message":"Slow response detected","route":"/settings","service":"web","timestamp":"2026-05-03T16:18:42.018+00:00"}
+{"asset":"/_next/static/chunks/main-eed8ov.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:18:45.020+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:18:48.023+00:00","uptime":"761"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:18:51.026+00:00","userId":"usr_g7h8i9"}
+{"duration":1198,"level":"warn","message":"Slow response detected","route":"/dashboard","service":"web","timestamp":"2026-05-03T16:18:54.027+00:00"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:18:57.030+00:00","userId":"usr_j1k2l3"}
+{"duration":63,"ip":"192.168.1.10","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:19:00.032+00:00","userId":"usr_a1b2c3"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:19:03.032+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-h5172d.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:19:06.034+00:00"}
+{"duration":134,"ip":"172.17.0.3","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:19:09.034+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-jsvlgg.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:19:12.038+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:19:15.039+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:19:18.042+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-sylau2.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:19:21.044+00:00"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:19:24.047+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-dhw1he.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:19:27.047+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:19:30.050+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-as3ve5.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:19:33.053+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:19:36.055+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:19:39.055+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:19:42.056+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:19:45.059+00:00","ttl":95}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:19:48.062+00:00","userId":"usr_j1k2l3"}
+{"duration":6,"ip":"192.168.1.10","level":"info","message":"GET /settings 200","service":"web","timestamp":"2026-05-03T16:19:51.065+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:19:54.066+00:00","userId":"usr_a1b2c3"}
+{"jobId":"job_p4q5r6","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_g7h8i9","route":"/profile","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:19:57.067+00:00"}
+{"asset":"/_next/static/chunks/main-ejdnx3.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:20:00.067+00:00"}
+{"ip":"192.168.1.10","level":"warn","message":"Rate limit approaching for IP","remaining":5,"service":"web","timestamp":"2026-05-03T16:20:03.068+00:00"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.57","service":"web","timestamp":"2026-05-03T16:20:06.071+00:00"}
+{"duration":105,"ip":"10.0.0.2","level":"info","message":"GET /settings 200","service":"web","timestamp":"2026-05-03T16:20:09.073+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:20:12.073+00:00","ttl":54}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:20:15.076+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:20:18.078+00:00","uptime":"851"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:20:21.081+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:20:24.081+00:00","uptime":"857"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:20:27.082+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:20:30.086+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-bf7u5m.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:20:33.088+00:00"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:20:36.091+00:00","ttl":36}
+{"asset":"/_next/static/chunks/main-wj6gy1.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:20:39.092+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:20:42.092+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:20:45.095+00:00","ttl":160}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:20:48.096+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:20:51.097+00:00","ttl":170}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:20:54.097+00:00","ttl":83}
+{"ip":"172.17.0.3","level":"warn","message":"Rate limit approaching for IP","remaining":6,"service":"web","timestamp":"2026-05-03T16:20:57.097+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:21:00.098+00:00","ttl":78}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:21:03.102+00:00","uptime":"896"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:21:06.103+00:00","userId":"usr_d4e5f6"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:21:09.105+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:21:12.106+00:00","ttl":26}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:21:15.106+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-ihgixo.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:21:18.108+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:21:21.109+00:00","userId":"usr_g7h8i9"}
+{"duration":80,"ip":"10.0.0.1","level":"info","message":"GET /settings 200","service":"web","timestamp":"2026-05-03T16:21:24.112+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:21:27.112+00:00","ttl":169}
+{"duration":73,"ip":"192.168.1.10","level":"info","message":"GET /settings 200","service":"web","timestamp":"2026-05-03T16:21:30.113+00:00","userId":"usr_j1k2l3"}
+{"duration":35,"ip":"172.17.0.3","level":"info","message":"GET / 200","service":"web","timestamp":"2026-05-03T16:21:33.119+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:21:36.120+00:00","uptime":"929"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:21:39.122+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:21:42.125+00:00","ttl":9}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:21:45.126+00:00","uptime":"938"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:21:48.128+00:00","ttl":117}
+{"ip":"192.168.1.10","level":"warn","message":"Rate limit approaching for IP","remaining":9,"service":"web","timestamp":"2026-05-03T16:21:51.131+00:00"}
+{"duration":23,"ip":"192.168.1.10","level":"info","message":"DELETE /api/health 200","service":"web","timestamp":"2026-05-03T16:21:54.133+00:00","userId":"usr_d4e5f6"}
+{"duration":106,"ip":"192.168.1.10","level":"info","message":"GET / 200","service":"web","timestamp":"2026-05-03T16:21:57.136+00:00","userId":"usr_g7h8i9"}
+{"duration":1397,"level":"warn","message":"Slow response detected","route":"/api/health","service":"web","timestamp":"2026-05-03T16:22:00.140+00:00"}
+{"duration":19,"ip":"10.0.0.2","level":"info","message":"GET /settings 200","service":"web","timestamp":"2026-05-03T16:22:03.143+00:00","userId":"usr_a1b2c3"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:22:06.146+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:22:09.148+00:00","uptime":"962"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:22:12.150+00:00","ttl":14}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:22:15.151+00:00","userId":"usr_d4e5f6"}
+{"duration":1331,"level":"warn","message":"Slow response detected","route":"/","service":"web","timestamp":"2026-05-03T16:22:18.151+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:22:21.154+00:00","userId":"usr_d4e5f6"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:22:24.154+00:00","userId":"usr_j1k2l3"}
+{"ip":"172.17.0.3","jobId":"job_x1y2z3","level":"error","message":"Failed to parse request body","ownerId":"usr_a1b2c3","route":"/api/data","service":"web","stack":"SyntaxError: Unexpected token '<', \"<html>404 \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parseRequestBody (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:50:17)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:101:25\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:100:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:22:27.157+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:22:30.159+00:00","uptime":"983"}
+{"code":"ECONNRESET","jobId":"job_m7n8o9","level":"error","message":"Database connection lost","ownerId":"usr_a1b2c3","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:22:33.160+00:00"}
+{"asset":"/_next/static/chunks/main-y3rsju.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:22:36.160+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:22:39.164+00:00","userId":"usr_j1k2l3"}
+{"duration":24,"ip":"172.17.0.3","level":"info","message":"GET / 200","service":"web","timestamp":"2026-05-03T16:22:42.167+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:22:45.169+00:00","ttl":241}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:22:48.169+00:00","userId":"usr_d4e5f6"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:22:51.172+00:00","userId":"usr_g7h8i9"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:22:54.173+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:22:57.175+00:00","uptime":"1010"}
+{"ip":"10.0.0.1","jobId":"job_p4q5r6","level":"error","message":"Failed to parse request body","ownerId":"usr_a1b2c3","route":"/api/data","service":"web","stack":"SyntaxError: Unexpected token '<', \"<html>404 \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parseRequestBody (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:50:17)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:101:25\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:100:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:23:00.178+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:23:03.178+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:23:06.180+00:00","uptime":"1019"}
+{"duration":67,"ip":"10.0.0.2","level":"info","message":"GET / 200","service":"web","timestamp":"2026-05-03T16:23:09.183+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-a94hl0.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:23:12.187+00:00"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:23:15.189+00:00","ttl":150}
+{"asset":"/_next/static/chunks/main-opr8d3.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:23:18.190+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:23:21.193+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-16etne.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:23:24.194+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:23:27.198+00:00","uptime":"1040"}
+{"asset":"/_next/static/chunks/main-6wihw8.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:23:30.199+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:23:33.199+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:23:36.202+00:00","userId":"usr_d4e5f6"}
+{"duration":36,"ip":"172.17.0.3","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T16:23:39.208+00:00","userId":"usr_g7h8i9"}
+{"duration":30,"ip":"172.17.0.3","level":"info","message":"GET / 200","service":"web","timestamp":"2026-05-03T16:23:42.214+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:23:45.217+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:23:48.218+00:00","ttl":218}
+{"asset":"/_next/static/chunks/main-5c2zwq.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:23:51.221+00:00"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:23:54.224+00:00","userId":"usr_g7h8i9"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.53","service":"web","timestamp":"2026-05-03T16:23:57.227+00:00"}
+{"code":"ECONNRESET","jobId":"job_x1y2z3","level":"error","message":"Database connection lost","ownerId":"usr_g7h8i9","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:24:00.230+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:24:03.232+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:24:06.235+00:00","ttl":40}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:24:09.236+00:00","ttl":217}
+{"ip":"172.17.0.3","level":"warn","message":"Rate limit approaching for IP","remaining":2,"service":"web","timestamp":"2026-05-03T16:24:12.237+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:24:15.241+00:00","userId":"usr_j1k2l3"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:24:18.246+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:24:21.250+00:00","ttl":247}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:24:24.254+00:00","ttl":292}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:24:27.257+00:00","ttl":145}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:24:30.260+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:24:33.264+00:00","userId":"usr_g7h8i9"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:24:36.264+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:24:39.266+00:00","uptime":"1112"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:24:42.269+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:24:45.272+00:00","uptime":"1118"}
+{"duration":137,"ip":"10.0.0.1","level":"info","message":"POST /dashboard 200","service":"web","timestamp":"2026-05-03T16:24:48.276+00:00","userId":"usr_g7h8i9"}
+{"duration":144,"ip":"192.168.1.10","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T16:24:51.280+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:24:54.283+00:00","ttl":169}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:24:57.286+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:25:00.289+00:00","uptime":"1133"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:25:03.292+00:00","ttl":264}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:25:06.295+00:00","uptime":"1139"}
+{"duration":141,"ip":"10.0.0.1","level":"info","message":"PUT / 200","service":"web","timestamp":"2026-05-03T16:25:09.296+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:25:12.297+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:25:15.301+00:00","uptime":"1148"}
+{"duration":22,"ip":"10.0.0.1","level":"info","message":"GET / 200","service":"web","timestamp":"2026-05-03T16:25:18.305+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:25:21.309+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:25:24.312+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:25:27.316+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:25:30.319+00:00","ttl":198}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:25:33.323+00:00","userId":"usr_a1b2c3"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.60","service":"web","timestamp":"2026-05-03T16:25:36.326+00:00"}
+{"code":"ECONNRESET","jobId":"job_a0b1c2","level":"error","message":"Database connection lost","ownerId":"usr_a1b2c3","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:25:39.329+00:00"}
+{"duration":97,"ip":"10.0.0.1","level":"info","message":"PUT /settings 200","service":"web","timestamp":"2026-05-03T16:25:42.331+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:25:45.333+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-rnghus.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:25:48.336+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:25:51.339+00:00","uptime":"1184"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:25:54.344+00:00","userId":"usr_d4e5f6"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.63","service":"web","timestamp":"2026-05-03T16:25:57.347+00:00"}
+{"jobId":"job_p4q5r6","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_a1b2c3","route":"/profile","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /profile\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:26:00.350+00:00"}
+{"asset":"/_next/static/chunks/main-ax1wn6.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:26:03.353+00:00"}
+{"duration":78,"ip":"10.0.0.1","level":"info","message":"POST /api/health 200","service":"web","timestamp":"2026-05-03T16:26:06.356+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:26:09.357+00:00","uptime":"1202"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:26:12.360+00:00","userId":"usr_d4e5f6"}
+{"asset":"/_next/static/chunks/main-6an8ba.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:26:15.362+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:26:18.364+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-i45k7y.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:26:21.368+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:26:24.371+00:00","userId":"usr_j1k2l3"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:26:27.376+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:26:30.378+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:26:33.379+00:00","ttl":284}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:26:36.382+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:26:39.384+00:00","uptime":"1232"}
+{"ip":"192.168.1.10","level":"warn","message":"Rate limit approaching for IP","remaining":7,"service":"web","timestamp":"2026-05-03T16:26:42.387+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:26:45.389+00:00","userId":"usr_a1b2c3"}
+{"ip":"172.17.0.3","level":"warn","message":"Rate limit approaching for IP","remaining":7,"service":"web","timestamp":"2026-05-03T16:26:48.389+00:00"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:26:51.391+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:26:54.393+00:00","uptime":"1247"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:26:57.397+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:27:00.400+00:00","ttl":87}
+{"duration":148,"ip":"10.0.0.1","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T16:27:03.401+00:00","userId":"usr_a1b2c3"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:27:06.404+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-3mb3na.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:27:09.406+00:00"}
+{"duration":117,"ip":"192.168.1.10","level":"info","message":"DELETE /profile 200","service":"web","timestamp":"2026-05-03T16:27:12.409+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-p4ybx3.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:27:15.412+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:27:18.415+00:00","userId":"usr_g7h8i9"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:27:21.417+00:00","ttl":244}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:27:24.420+00:00","uptime":"1277"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:27:27.424+00:00","uptime":"1280"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:27:30.428+00:00","uptime":"1283"}
+{"asset":"/_next/static/chunks/main-ku16up.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:27:33.430+00:00"}
+{"asset":"/_next/static/chunks/main-ndjqkt.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:27:36.433+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:27:39.435+00:00","uptime":"1292"}
+{"duration":18,"ip":"192.168.1.10","level":"info","message":"PUT /dashboard 200","service":"web","timestamp":"2026-05-03T16:27:42.438+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:27:45.440+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-vp7mit.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:27:48.444+00:00"}
+{"asset":"/_next/static/chunks/main-4fchk5.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:27:51.447+00:00"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:27:54.450+00:00","ttl":12}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:27:57.454+00:00","uptime":"1310"}
+{"duration":146,"ip":"172.17.0.3","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:28:00.458+00:00","userId":"usr_g7h8i9"}
+{"ip":"192.168.1.10","level":"warn","message":"Rate limit approaching for IP","remaining":2,"service":"web","timestamp":"2026-05-03T16:28:03.464+00:00"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:28:06.467+00:00","ttl":97}
+{"duration":26,"ip":"192.168.1.10","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:28:09.467+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:28:12.471+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:28:15.474+00:00","uptime":"1328"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:28:18.477+00:00","userId":"usr_j1k2l3"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:28:21.480+00:00","userId":"usr_a1b2c3"}
+{"duration":1193,"level":"warn","message":"Slow response detected","route":"/api/health","service":"web","timestamp":"2026-05-03T16:28:24.483+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:28:27.486+00:00","uptime":"1340"}
+{"asset":"/_next/static/chunks/main-oltzua.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:28:30.490+00:00"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:28:33.493+00:00","ttl":231}
+{"duration":22,"ip":"172.17.0.3","level":"info","message":"POST /dashboard 200","service":"web","timestamp":"2026-05-03T16:28:36.497+00:00","userId":"usr_j1k2l3"}
+{"jobId":"job_m7n8o9","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_j1k2l3","route":"/profile","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /profile\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:28:39.498+00:00"}
+{"code":"ECONNRESET","jobId":"job_x1y2z3","level":"error","message":"Database connection lost","ownerId":"usr_j1k2l3","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:28:42.499+00:00"}
+{"asset":"/_next/static/chunks/main-jm5iiy.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:28:45.501+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:28:48.502+00:00","userId":"usr_d4e5f6"}
+{"duration":1229,"level":"warn","message":"Slow response detected","route":"/profile","service":"web","timestamp":"2026-05-03T16:28:51.504+00:00"}
+{"duration":111,"ip":"10.0.0.1","level":"info","message":"PUT /dashboard 200","service":"web","timestamp":"2026-05-03T16:28:54.505+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:28:57.506+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-ptowo0.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:29:00.509+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:29:03.511+00:00","userId":"usr_g7h8i9"}
+{"duration":76,"ip":"192.168.1.10","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T16:29:06.512+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:29:09.514+00:00","uptime":"1382"}
+{"asset":"/_next/static/chunks/main-fcbevq.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:29:12.517+00:00"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:29:15.517+00:00","ttl":130}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:29:18.518+00:00","uptime":"1391"}
+{"duration":1357,"level":"warn","message":"Slow response detected","route":"/","service":"web","timestamp":"2026-05-03T16:29:21.521+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:29:24.524+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:29:27.527+00:00","ttl":113}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:29:30.530+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-bd61ua.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:29:33.534+00:00"}
+{"ip":"172.17.0.3","level":"warn","message":"Rate limit approaching for IP","remaining":7,"service":"web","timestamp":"2026-05-03T16:29:36.537+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:29:39.540+00:00","ttl":64}
+{"asset":"/_next/static/chunks/main-kyaf3w.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:29:42.543+00:00"}
+{"jobId":"job_a0b1c2","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_j1k2l3","route":"/","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /api/health\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:29:45.546+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:29:48.549+00:00","uptime":"1421"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:29:51.553+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-cyobcc.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:29:54.556+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:29:57.558+00:00","uptime":"1430"}
+{"asset":"/_next/static/chunks/main-ioxygk.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:30:00.562+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:30:03.566+00:00","uptime":"1436"}
+{"duration":139,"ip":"10.0.0.1","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:30:06.570+00:00","userId":"usr_a1b2c3"}
+{"duration":118,"ip":"10.0.0.2","level":"info","message":"POST /dashboard 200","service":"web","timestamp":"2026-05-03T16:30:09.572+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:30:12.576+00:00","userId":"usr_g7h8i9"}
+{"ip":"172.17.0.3","level":"warn","message":"Rate limit approaching for IP","remaining":1,"service":"web","timestamp":"2026-05-03T16:30:15.578+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:30:18.578+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"getDashboardDataAction: start","service":"web","timestamp":"2026-05-03T16:30:19.300+00:00"}
+{"level":"error","message":"getDashboardDataAction: failed Response validation failed: 0.description.0: expected string, 0.description.1: expected null","service":"web","tag":"ParseError","timestamp":"2026-05-03T16:30:19.438+00:00"}
+{"asset":"/_next/static/chunks/main-i90c30.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:30:21.580+00:00"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:30:24.580+00:00","ttl":226}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:30:27.581+00:00","userId":"usr_a1b2c3"}
+{"duration":656,"level":"warn","message":"Slow response detected","route":"/settings","service":"web","timestamp":"2026-05-03T16:30:30.584+00:00"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:30:33.586+00:00","userId":"usr_d4e5f6"}
+{"duration":154,"ip":"10.0.0.2","level":"info","message":"GET /profile 200","service":"web","timestamp":"2026-05-03T16:30:36.588+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:30:39.592+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:30:42.592+00:00","uptime":"1475"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:30:45.596+00:00","userId":"usr_a1b2c3"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:30:48.597+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:30:51.598+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"getDashboardDataAction: start","service":"web","timestamp":"2026-05-03T16:30:54.114+00:00"}
+{"level":"error","message":"getDashboardDataAction: failed Response validation failed: 0.description.0: expected string, 0.description.1: expected null","service":"web","tag":"ParseError","timestamp":"2026-05-03T16:30:54.127+00:00"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:30:54.599+00:00","userId":"usr_g7h8i9"}
+{"duration":58,"ip":"192.168.1.10","level":"info","message":"DELETE /settings 200","service":"web","timestamp":"2026-05-03T16:30:57.600+00:00","userId":"usr_g7h8i9"}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:31:00.601+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:31:03.604+00:00","uptime":"1496"}
+{"asset":"/_next/static/chunks/main-x8schw.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:31:06.607+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:31:09.608+00:00","uptime":"1502"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:31:12.613+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:31:15.615+00:00","userId":"usr_a1b2c3"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:31:18.618+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:31:21.621+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:31:24.621+00:00","ttl":96}
+{"duration":81,"ip":"10.0.0.1","level":"info","message":"DELETE /dashboard 200","service":"web","timestamp":"2026-05-03T16:31:27.625+00:00","userId":"usr_d4e5f6"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:31:30.626+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:31:33.630+00:00","ttl":290}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:31:36.632+00:00","userId":"usr_g7h8i9"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:31:39.633+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-184ki1.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:31:42.636+00:00"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:31:45.638+00:00","ttl":210}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:31:48.641+00:00","userId":"usr_d4e5f6"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.86","service":"web","timestamp":"2026-05-03T16:31:51.644+00:00"}
+{"code":"ECONNRESET","jobId":"job_a0b1c2","level":"error","message":"Database connection lost","ownerId":"usr_j1k2l3","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:31:54.646+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:31:57.648+00:00","uptime":"1550"}
+{"duration":123,"ip":"172.17.0.3","level":"info","message":"GET /settings 200","service":"web","timestamp":"2026-05-03T16:32:00.651+00:00","userId":"usr_d4e5f6"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.58","service":"web","timestamp":"2026-05-03T16:32:03.654+00:00"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:32:06.657+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-v5zqg1.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:32:09.659+00:00"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:32:12.663+00:00","ttl":72}
+{"asset":"/_next/static/chunks/main-wlht7h.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:32:15.666+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:32:18.670+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:32:21.672+00:00","userId":"usr_a1b2c3"}
+{"code":"ECONNRESET","jobId":"job_p4q5r6","level":"error","message":"Database connection lost","ownerId":"usr_a1b2c3","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:32:24.674+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:32:27.677+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-j4p2y1.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:32:30.679+00:00"}
+{"key":"page:/dashboard","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:32:33.682+00:00","ttl":175}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:32:36.684+00:00","uptime":"1589"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:32:39.685+00:00","userId":"usr_a1b2c3"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:32:42.689+00:00","userId":"usr_d4e5f6"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:32:45.690+00:00","ttl":249}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:32:48.692+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:32:51.695+00:00","ttl":40}
+{"asset":"/_next/static/chunks/main-0r8drs.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:32:54.697+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:32:57.701+00:00","userId":"usr_g7h8i9"}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:33:00.704+00:00","userId":"usr_j1k2l3"}
+{"code":"ECONNRESET","jobId":"job_p4q5r6","level":"error","message":"Database connection lost","ownerId":"usr_j1k2l3","retryIn":"5s","service":"web","stack":"Error: ECONNRESET: connection reset by peer — query: SELECT * FROM users\n    at queryDatabase (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:53:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:89:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:33:03.705+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:33:06.708+00:00","userId":"usr_g7h8i9"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:33:09.709+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:33:12.712+00:00","uptime":"1625"}
+{"ip":"172.17.0.3","jobId":"job_m7n8o9","level":"error","message":"Failed to parse request body","ownerId":"usr_a1b2c3","route":"/api/data","service":"web","stack":"SyntaxError: Unexpected token '<', \"<html>404 \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parseRequestBody (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:50:17)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:101:25\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:100:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:33:15.714+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:33:18.717+00:00","ttl":87}
+{"ip":"192.168.1.10","jobId":"job_m7n8o9","level":"error","message":"Failed to parse request body","ownerId":"usr_g7h8i9","route":"/api/data","service":"web","stack":"SyntaxError: Unexpected token '<', \"<html>404 \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parseRequestBody (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:50:17)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:101:25\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:100:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:33:21.723+00:00"}
+{"duration":103,"ip":"192.168.1.10","level":"info","message":"DELETE / 200","service":"web","timestamp":"2026-05-03T16:33:24.725+00:00","userId":"usr_g7h8i9"}
+{"ip":"192.168.1.10","level":"warn","message":"Rate limit approaching for IP","remaining":9,"service":"web","timestamp":"2026-05-03T16:33:27.729+00:00"}
+{"duration":790,"level":"warn","message":"Slow response detected","route":"/","service":"web","timestamp":"2026-05-03T16:33:30.732+00:00"}
+{"duration":519,"level":"warn","message":"Slow response detected","route":"/","service":"web","timestamp":"2026-05-03T16:33:33.736+00:00"}
+{"asset":"/_next/static/chunks/main-y53j22.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:33:36.736+00:00"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.69","service":"web","timestamp":"2026-05-03T16:33:39.737+00:00"}
+{"jobId":"job_a0b1c2","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_g7h8i9","route":"/dashboard","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /api/health\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:33:42.740+00:00"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:33:45.743+00:00","ttl":154}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:33:48.745+00:00","ttl":151}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:33:51.748+00:00","uptime":"1664"}
+{"duration":151,"ip":"10.0.0.2","level":"info","message":"DELETE /profile 200","service":"web","timestamp":"2026-05-03T16:33:54.749+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-3wu5ej.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:33:57.752+00:00"}
+{"asset":"/_next/static/chunks/main-1sntdb.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:34:00.754+00:00"}
+{"jobId":"job_m7n8o9","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_j1k2l3","route":"/api/health","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /dashboard\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:34:03.755+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:34:06.757+00:00","uptime":"1680"}
+{"asset":"/_next/static/chunks/main-wrk7qh.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:34:09.759+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:34:12.762+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:34:15.764+00:00","uptime":"1689"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:34:18.765+00:00","uptime":"1692"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:34:21.772+00:00","uptime":"1695"}
+{"asset":"/_next/static/chunks/main-17uxzm.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:34:24.773+00:00"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:34:27.777+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:34:30.779+00:00","userId":"usr_d4e5f6"}
+{"ip":"192.168.1.10","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:34:33.782+00:00","userId":"usr_j1k2l3"}
+{"key":"page:/settings","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:34:36.785+00:00","ttl":170}
+{"duration":37,"ip":"10.0.0.2","level":"info","message":"GET /api/health 200","service":"web","timestamp":"2026-05-03T16:34:39.786+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:34:42.788+00:00","ttl":146}
+{"expiresIn":"5m","level":"warn","message":"JWT token expiring soon","service":"web","timestamp":"2026-05-03T16:34:45.789+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-fhh6iq.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:34:48.790+00:00"}
+{"duration":23,"ip":"192.168.1.10","level":"info","message":"PUT / 200","service":"web","timestamp":"2026-05-03T16:34:51.792+00:00","userId":"usr_j1k2l3"}
+{"asset":"/_next/static/chunks/main-8i39qj.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:34:54.793+00:00"}
+{"level":"warn","message":"Cache miss ratio is high","ratio":"0.80","service":"web","timestamp":"2026-05-03T16:34:57.797+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:35:00.802+00:00","userId":"usr_a1b2c3"}
+{"asset":"/_next/static/chunks/main-2yn46v.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:35:03.806+00:00"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:35:06.808+00:00","uptime":"1740"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:35:09.810+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:35:12.810+00:00","ttl":33}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:35:15.812+00:00","userId":"usr_j1k2l3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:35:18.815+00:00","uptime":"1752"}
+{"key":"page:/","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:35:21.818+00:00","ttl":271}
+{"duration":33,"ip":"172.17.0.3","level":"info","message":"GET /dashboard 200","service":"web","timestamp":"2026-05-03T16:35:24.822+00:00","userId":"usr_g7h8i9"}
+{"asset":"/_next/static/chunks/main-ev9aji.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:35:27.825+00:00"}
+{"duration":1365,"level":"warn","message":"Slow response detected","route":"/","service":"web","timestamp":"2026-05-03T16:35:30.834+00:00"}
+{"jobId":"job_p4q5r6","level":"error","message":"Unhandled exception in route handler","ownerId":"usr_j1k2l3","route":"/settings","service":"web","stack":"TypeError: Cannot read properties of undefined (reading 'userId') — route: /settings\n    at handleRoute (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:56:11)\n    at /home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:45\n    at captureError (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:60:9)\n    at buildScenario (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:78:28)\n    at Timeout._onTimeout (/home/pritam/projects/server-monitor/apps/web/.next/dev/server/chunks/apps_web_instrumentation_ts_056r9kp._.js:208:93)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)","timestamp":"2026-05-03T16:35:33.837+00:00"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:35:36.840+00:00","ttl":179}
+{"ip":"10.0.0.2","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:35:39.844+00:00","userId":"usr_j1k2l3"}
+{"duration":785,"level":"warn","message":"Slow response detected","route":"/","service":"web","timestamp":"2026-05-03T16:35:42.844+00:00"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:35:45.846+00:00","userId":"usr_j1k2l3"}
+{"ip":"172.17.0.3","level":"warn","message":"Rate limit approaching for IP","remaining":6,"service":"web","timestamp":"2026-05-03T16:35:48.848+00:00"}
+{"duration":563,"level":"warn","message":"Slow response detected","route":"/dashboard","service":"web","timestamp":"2026-05-03T16:35:51.850+00:00"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:35:54.852+00:00","ttl":87}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:35:57.854+00:00","userId":"usr_d4e5f6"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:36:00.858+00:00","uptime":"1794"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:36:03.863+00:00","userId":"usr_d4e5f6"}
+{"ip":"10.0.0.1","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:36:06.867+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/profile","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:36:09.869+00:00","ttl":10}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:36:12.870+00:00","uptime":"1806"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:36:15.873+00:00","uptime":"1809"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:36:18.876+00:00","uptime":"1812"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:36:21.878+00:00","userId":"usr_g7h8i9"}
+{"level":"info","message":"Session refreshed","service":"web","timestamp":"2026-05-03T16:36:24.881+00:00","userId":"usr_a1b2c3"}
+{"level":"info","message":"Health check passed","service":"web","timestamp":"2026-05-03T16:36:27.884+00:00","uptime":"1821"}
+{"duration":106,"ip":"10.0.0.1","level":"info","message":"POST / 200","service":"web","timestamp":"2026-05-03T16:36:30.887+00:00","userId":"usr_a1b2c3"}
+{"key":"page:/api/health","level":"info","message":"Cache hit","service":"web","timestamp":"2026-05-03T16:36:33.890+00:00","ttl":126}
+{"asset":"/_next/static/chunks/main-n0dnpv.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:36:36.896+00:00"}
+{"asset":"/_next/static/chunks/main-plfbp2.js","level":"info","message":"Static asset served","service":"web","timestamp":"2026-05-03T16:36:39.900+00:00"}
+{"ip":"172.17.0.3","level":"info","message":"User authenticated","service":"web","timestamp":"2026-05-03T16:36:42.905+00:00","userId":"usr_j1k2l3"}

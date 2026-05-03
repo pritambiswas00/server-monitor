@@ -4,6 +4,7 @@ import { Column, CreateDateColumn, Entity, PrimaryColumn, UpdateDateColumn } fro
 import * as O from 'fp-ts/Option';
 import { isoUserId, type UserId } from '@/users/entities/user.entity';
 import { ApiProperty } from '@nestjs/swagger';
+import { RemoteServerConfigDto } from '../dto/remote-server-config.dto';
 
 export type RemoteServerId = Newtype<{ readonly RemoteServerId: unique symbol }, string>;
 export const isoRemoteServerId = iso<RemoteServerId>();
@@ -36,9 +37,9 @@ export class RemoteServer {
     @Column({ type: 'varchar', nullable: true, transformer: { from: O.fromNullable, to: O.toNullable } })
     description: O.Option<string>
 
-    @ApiProperty({ type: Object })
+    @ApiProperty({ type: RemoteServerConfigDto })
     @Column({ type: 'simple-json' })
-    config: Record<string, unknown>;
+    config: typeof RemoteServerConfigDto;
 
     @CreateDateColumn()
     createdAt: Date
@@ -50,3 +51,4 @@ export class RemoteServer {
     @Column()
     status: RemoteServerStatus;
 }
+

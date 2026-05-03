@@ -98,7 +98,7 @@ function buildScenario(forceError = false): LogScenario {
     { level: 'info', message: 'Cache hit', meta: { key: `page:${pick(ROUTES)}`, ttl: Math.floor(Math.random() * 300) } },
     { level: 'info', message: 'Session refreshed', meta: { userId: pick(USERS) } },
     { level: 'info', message: 'Static asset served', meta: { asset: `/_next/static/chunks/main-${Math.random().toString(36).slice(2, 8)}.js` } },
-    { level: 'info', message: 'Health check passed', meta: { uptime: process.uptime().toFixed(0) } },
+    { level: 'info', message: 'Health check passed', meta: { uptime: typeof process !== 'undefined' && typeof process.uptime === 'function' ? process.uptime().toFixed(0) : '0' } },
   ];
   return pick(infos);
 }

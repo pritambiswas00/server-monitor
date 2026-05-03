@@ -91,4 +91,14 @@ export class UsersService {
       ))
     )
   }
+
+  findByEmail(email: string) {
+    return pipe(
+      TE.tryCatch(
+        () => this.userRepo.findOneBy({ email }),
+        () => new InternalServerErrorException(`FindByEmail :: Error Occurred while finding user with email ${email}`)
+      ),
+      TE.map(O.fromNullable)
+    );
+  }
 }

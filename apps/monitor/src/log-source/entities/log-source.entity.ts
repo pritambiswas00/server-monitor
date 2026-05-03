@@ -1,9 +1,10 @@
 import { type PipeTransform } from '@nestjs/common';
 import { iso, type Newtype } from 'newtype-ts';
-import { Column, CreateDateColumn, Entity, PrimaryColumn, UpdateDateColumn } from 'typeorm';
+import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn, UpdateDateColumn } from 'typeorm';
 import * as O from 'fp-ts/Option';
 import { isoUserId, type UserId } from '@/users/entities/user.entity';
 import { ApiProperty } from '@nestjs/swagger';
+import { RemoteServer, isoRemoteServerId, type RemoteServerId } from '@/remote-server/entities/remote-server.entity';
 
 export type LogSourceId = Newtype<{ readonly LogSourceId: unique symbol }, string>;
 export const isLogSourceId = iso<LogSourceId>();
@@ -19,7 +20,7 @@ export enum LogStatus {
 
 export enum LogSourceType {
      PROMETHEUS = 'PROMETHEUS',
-     HTTP = 'HTTP',        // poll a JSON log endpoint, e.g. http://<host>/api/logs
+     FLUENT_BIT = 'FLUENT_BIT',
 }
 
 @Entity({ name: 'log-source', schema: 'log-source' })
@@ -50,6 +51,14 @@ export class LogSource {
     @ApiProperty({ type: Object })
     @Column({ type: 'simple-json' })
     config: Record<string, unknown>;
+
+    @ApiProperty({ type: String })
+    @Column({ type: 'uuid', transformer: { from: isoRemoteServerId.wrap, to: isoRemoteServerId.unwrap } })
+    remoteServerId: RemoteServerId;
+
+    @ManyToOne(() => RemoteServer)
+    @JoinColumn({ name: 'remoteServerId', referencedColumnName: 'id' })
+    remoteServer: RemoteServer;
 
     @CreateDateColumn()
     createdAt: Date;

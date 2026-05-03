@@ -1,9 +1,9 @@
 import { type PipeTransform } from '@nestjs/common';
 import { iso, type Newtype } from 'newtype-ts';
-import { Column, CreateDateColumn, Entity, JoinColumn, OneToMany, OneToOne, PrimaryColumn, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
+import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, OneToMany, PrimaryColumn, UpdateDateColumn } from 'typeorm';
 import * as O from 'fp-ts/Option';
-import { RemoteServer } from '../../../remote-server/entities/remote-server.entity';
-import { LogSource } from '../../../log-source/entities/log-source.entity';
+import { RemoteServer, isoRemoteServerId, type RemoteServerId } from '../../../remote-server/entities/remote-server.entity';
+import { LogSource, isLogSourceId, type LogSourceId } from '../../../log-source/entities/log-source.entity';
 import { isoUserId, type UserId } from '@/users/entities/user.entity';
 import { ApiProperty } from '@nestjs/swagger';
 import { Anomaly } from './anomaly.entity';
@@ -59,11 +59,17 @@ export class LogAnalysisJob {
     @UpdateDateColumn()
     updatedAt: Date;
 
-    @OneToOne(() => LogSource)
+    @Column({ type: 'uuid', transformer: { from: isLogSourceId.wrap, to: isLogSourceId.unwrap } })
+    logSourceId: LogSourceId;
+
+    @ManyToOne(() => LogSource)
     @JoinColumn({ name: 'logSourceId', referencedColumnName: 'id' })
     logSource: LogSource;
 
-    @OneToOne(() => RemoteServer)
+    @Column({ type: 'uuid', transformer: { from: isoRemoteServerId.wrap, to: isoRemoteServerId.unwrap } })
+    remoteServerId: RemoteServerId;
+
+    @ManyToOne(() => RemoteServer)
     @JoinColumn({ name: 'remoteServerId', referencedColumnName: 'id' })
     remoteServer: RemoteServer;
 

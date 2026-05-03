@@ -5,33 +5,50 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { isLogSourceId, LogSource, LogSourceId, LogStatus } from './entities/log-source.entity';
 import { Repository } from 'typeorm';
 import * as O from 'fp-ts/Option';
+import * as E from 'fp-ts/Either';
 import { isoUserId, type UserId } from '@/users/entities/user.entity';
 import { pipe } from 'fp-ts/function';
 import * as TE from 'fp-ts/TaskEither';
+import { LogSourcePluginRegistry } from './plugins/log-source-plugin.registry';
 
 @Injectable()
 export class LogSourceService {
 
 
-  constructor(@InjectRepository(LogSource) private logRepo: Repository<LogSource>) { }
+  constructor(
+    @InjectRepository(LogSource) private logRepo: Repository<LogSource>,
+    private readonly pluginRegistry: LogSourcePluginRegistry,
+  ) { }
 
   create(createLogSourceDto: CreateLogSourceDto, ownerId: UserId) {
     return pipe(
-      this.findByNameAndUserId(createLogSourceDto.name, ownerId),
-      TE.flatMap((isLogSource) => pipe(
-        isLogSource,
-        O.match(
-          () => TE.right(this.logRepo.create({
-            ...createLogSourceDto,
-            ownerId,
-            status: LogStatus.UNKNOWN
-          })),
-          (logSource) => TE.left(new ConflictException(`Log Source :: User ${isoUserId.unwrap(ownerId)} with name ${logSource.name} already exists.`)))
-      )),
-      TE.flatMap((logSource) => TE.tryCatch(
-        () => this.logRepo.save(logSource),
-        () => new InternalServerErrorException(`Log Source :: Error Occurred while saving the log source ${isLogSourceId.unwrap(logSource.id)}`)
-      ))
+      // Validate config shape for the chosen plugin type
+      TE.fromEither(
+        E.tryCatch(
+          () => this.pluginRegistry.get(createLogSourceDto.type).validateConfig(createLogSourceDto.config),
+          (e) => e as Error,
+        )
+      ),
+      TE.flatMap((validatedConfig) =>
+        pipe(
+          this.findByNameAndUserId(createLogSourceDto.name, ownerId),
+          TE.flatMap((isLogSource) => pipe(
+            isLogSource,
+            O.match(
+              () => TE.right(this.logRepo.create({
+                ...createLogSourceDto,
+                config: validatedConfig,
+                ownerId,
+                status: LogStatus.UNKNOWN
+              })),
+              (logSource) => TE.left(new ConflictException(`Log Source :: User ${isoUserId.unwrap(ownerId)} with name ${logSource.name} already exists.`)))
+          )),
+          TE.flatMap((logSource) => TE.tryCatch(
+            () => this.logRepo.save(logSource),
+            () => new InternalServerErrorException(`Log Source :: Error Occurred while saving the log source ${isLogSourceId.unwrap(logSource.id)}`)
+          ))
+        )
+      )
     )
   }
 

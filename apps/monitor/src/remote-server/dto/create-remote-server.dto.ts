@@ -1,7 +1,8 @@
-import { IsObject, IsOptional, IsString } from "class-validator";
-import { Transform } from 'class-transformer';
+import { IsOptional, IsString, ValidateNested } from "class-validator";
+import { Transform, Type } from 'class-transformer';
 import * as O from 'fp-ts/Option';
 import { ApiProperty } from '@nestjs/swagger';
+import { RemoteServerConfigDto } from './remote-server-config.dto';
 
 export class CreateRemoteServerDto {
 
@@ -12,11 +13,10 @@ export class CreateRemoteServerDto {
     @Transform((params) => O.fromNullable(params.value))
     @IsOptional()
     @IsString()
-    readonly description:  O.Option<string>;
+    readonly description: O.Option<string>;
 
-    @ApiProperty({ type: Object })
-    @IsObject()
-    readonly config: Record<string, any>;
-
-
+    @ApiProperty({ type: RemoteServerConfigDto })
+    @ValidateNested()
+    @Type(() => RemoteServerConfigDto)
+    readonly config: RemoteServerConfigDto;
 }
