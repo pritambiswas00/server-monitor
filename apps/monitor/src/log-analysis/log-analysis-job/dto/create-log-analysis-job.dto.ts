@@ -1,4 +1,4 @@
-import { IsEnum, IsOptional, IsString } from "class-validator";
+import { IsEnum, IsObject, IsOptional, IsString } from "class-validator";
 import { LogAnalysisJobType } from "../entities/log-analysis-job.entity";
 import { Transform } from "class-transformer";
 import * as O from 'fp-ts/Option'
@@ -30,5 +30,11 @@ export class CreateLogAnalysisJobDto {
     @Transform((params) => isoRemoteServerId.wrap(params.value))
     @IsString({ message: 'remoteServerId must be a string' })
     remoteServerId: RemoteServerId;
-    
+
+    @ApiProperty({ type: Object, required: false })
+    @Transform((params) => O.fromNullable(params.value))
+    @IsObject()
+    @IsOptional()
+    ticketSystemConfig: O.Option<Record<string, unknown>>;
+
 }

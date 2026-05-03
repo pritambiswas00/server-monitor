@@ -5,9 +5,10 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { LogAnalysisJob } from './entities/log-analysis-job.entity';
 import { RemoteServerModule } from '@/remote-server/remote-server.module';
 import { LogSourceModule } from '@/log-source/log-source.module';
+import { Anomaly } from './entities/anomaly.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([LogAnalysisJob]), LogSourceModule, RemoteServerModule],
+  imports: [TypeOrmModule.forFeature([LogAnalysisJob, Anomaly]), LogSourceModule, RemoteServerModule],
   controllers: [LogAnalysisJobController],
   providers: [LogAnalysisJobService],
 })
